@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="40%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5eead4" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#f59e0b" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded rect -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  
+  <!-- Outer subtle gold border -->
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="url(#goldGrad)" stroke-width="3" stroke-opacity="0.4" />
+
+  <!-- Center Grand Palace / Banquet Hall Icon Arch & Chandelier Motif -->
+  <g transform="translate(256, 210)">
+    <!-- Architectural Dome / Crown -->
+    <path d="M-90,60 C-90,-50 0,-110 0,-110 C0,-110 90,-50 90,60 Z" fill="none" stroke="url(#goldGrad)" stroke-width="8" stroke-linejoin="round" filter="url(#glow)"/>
+    
+    <!-- Arch Pillars -->
+    <path d="M-90,60 L-90,100 M90,60 L90,100 M-60,60 L-60,100 M60,60 L60,100" stroke="url(#goldGrad)" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Central Luxury Star / Diamond -->
+    <polygon points="0,-125 15,-95 45,-95 20,-75 30,-45 0,-65 -30,-45 -20,-75 -45,-95 -15,-95" fill="url(#goldGrad)" />
+
+    <!-- Chandelier Crystals -->
+    <circle cx="0" cy="-10" r="14" fill="url(#tealGrad)" />
+    <circle cx="-35" cy="15" r="10" fill="url(#tealGrad)" />
+    <circle cx="35" cy="15" r="10" fill="url(#tealGrad)" />
+    <circle cx="-20" cy="40" r="8" fill="url(#goldGrad)" />
+    <circle cx="20" cy="40" r="8" fill="url(#goldGrad)" />
+    <circle cx="0" cy="55" r="9" fill="url(#goldGrad)" />
+  </g>
+
+  <!-- Typography BEMS -->
+  <text x="256" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="900" fill="#f8fafc" text-anchor="middle" letter-spacing="8">BEMS</text>
+  <text x="256" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#38bdf8" text-anchor="middle" letter-spacing="4">THE RESIDENCY TOWERS</text>
+  <text x="256" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#94a3b8" text-anchor="middle" letter-spacing="2">BANQUET MANAGEMENT</text>
+</svg>

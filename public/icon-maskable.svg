@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGradM" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <linearGradient id="goldGradM" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="40%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="tealGradM" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5eead4" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed background for maskable -->
+  <rect width="512" height="512" fill="url(#bgGradM)" />
+
+  <!-- Inside Safe Zone: scaled 78% -->
+  <g transform="translate(256, 256) scale(0.78) translate(-256, -256)">
+    <g transform="translate(256, 190)">
+      <path d="M-90,60 C-90,-50 0,-110 0,-110 C0,-110 90,-50 90,60 Z" fill="none" stroke="url(#goldGradM)" stroke-width="9" stroke-linejoin="round"/>
+      <path d="M-90,60 L-90,100 M90,60 L90,100 M-60,60 L-60,100 M60,60 L60,100" stroke="url(#goldGradM)" stroke-width="7" stroke-linecap="round"/>
+      <polygon points="0,-125 15,-95 45,-95 20,-75 30,-45 0,-65 -30,-45 -20,-75 -45,-95 -15,-95" fill="url(#goldGradM)" />
+      <circle cx="0" cy="-10" r="14" fill="url(#tealGradM)" />
+      <circle cx="-35" cy="15" r="10" fill="url(#tealGradM)" />
+      <circle cx="35" cy="15" r="10" fill="url(#tealGradM)" />
+      <circle cx="-20" cy="40" r="8" fill="url(#goldGradM)" />
+      <circle cx="20" cy="40" r="8" fill="url(#goldGradM)" />
+      <circle cx="0" cy="55" r="9" fill="url(#goldGradM)" />
+    </g>
+    <text x="256" y="365" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="900" fill="#f8fafc" text-anchor="middle" letter-spacing="8">BEMS</text>
+    <text x="256" y="405" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#38bdf8" text-anchor="middle" letter-spacing="4">THE RESIDENCY</text>
+  </g>
+</svg>

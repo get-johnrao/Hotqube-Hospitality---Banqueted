@@ -1,0 +1,8 @@
+{
+  "name": "Remix Banquet Enquiry Management System (BEMS)",
+  "description": "Operational command center and banquet enquiry management system for The Residency Towers, Chennai with offline-first persistence, hall locking, and real-time analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
